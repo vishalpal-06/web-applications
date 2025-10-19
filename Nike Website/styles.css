@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html,
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav img {
+    height: 80px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-left ul a {
+    margin: 20px;
+    text-decoration: none;
+}
+
+.nav-right i {
+    margin: 5px;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+
+}
+
+#content-left {
+    width: 30%;
+    padding: 50px 100px 0px 100px;
+}
+
+#content-right {
+    width: 60%;
+    display: flex;
+    overflow-x: auto;
+    padding-right: 10px;
+}
+
+.product {
+    width: fit-content;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.product img {
+    height: 250px;
+}
+
+
+#content-left h1 {
+    font-weight: 900;
+    font-size: 70px;
+
+}
+
+#content-left button {
+    height: 40px;
+    width: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0px 20px 20px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+#content-left p {
+    padding: 25px 0px 25px 0px;
+}
+
+
+#footer {
+    text-align: center;
+}
